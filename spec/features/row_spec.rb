@@ -20,7 +20,7 @@ describe 'row screen', js: true do
     visit '/song/html'
       
         expect(page).to have_xpath("/html/body/table/tbody/tr", count: 3)
-        puts '3'
+        puts '3 rows'
   
   end
   

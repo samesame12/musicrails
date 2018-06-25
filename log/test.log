@@ -3750,3 +3750,25 @@ Processing by SongsController#html as HTML
   [1m[36mSongs Load (0.2ms)[0m  [1m[34mSELECT  "songs".* FROM "songs" LIMIT ?[0m  [["LIMIT", 3]]
   Rendered songs/html.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/song/html" for 127.0.0.1 at 2018-06-25 11:14:16 +0700
+Processing by SongsController#html as HTML
+  Rendering songs/html.html.erb within layouts/application
+  [1m[36mSongs Load (0.9ms)[0m  [1m[34mSELECT  "songs".* FROM "songs" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered songs/html.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 199ms (Views: 182.6ms | ActiveRecord: 1.8ms)
+Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2018-06-25 11:14:16 +0700
+Started GET "/assets/application-f360afb1ab93d9c96eeba633778fb50e4860f856ce8e22b383401daaddc917e8.js" for 127.0.0.1 at 2018-06-25 11:14:16 +0700
+Started GET "/song/html" for 127.0.0.1 at 2018-06-25 11:14:16 +0700
+Processing by SongsController#html as HTML
+  Rendering songs/html.html.erb within layouts/application
+  [1m[36mSongs Load (0.2ms)[0m  [1m[34mSELECT  "songs".* FROM "songs" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered songs/html.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/song/html" for 127.0.0.1 at 2018-06-25 11:15:33 +0700
+Processing by SongsController#html as HTML
+  Rendering songs/html.html.erb within layouts/application
+  [1m[36mSongs Load (0.9ms)[0m  [1m[34mSELECT  "songs".* FROM "songs" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered songs/html.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 160ms (Views: 145.9ms | ActiveRecord: 1.5ms)
